@@ -1,0 +1,18 @@
+@import 'tailwindcss';
+
+:root {
+    --color-bg: #ffffff;
+    --color-text: #000000;
+}
+
+@variant dark {
+    :where([data-theme='dark'], [data-theme='dark'] *) {
+        --color-bg: #000000;
+        --color-text: #ffffff;
+    }
+}
+
+body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+}

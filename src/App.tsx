@@ -1,7 +1,7 @@
 import React from 'react';
 
 const App: React.FC = () => {
-    return (<div>
+    return (<div className='flex items-center justify-center h-screen'>
         test
     </div>);
 };
